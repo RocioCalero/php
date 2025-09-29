@@ -11,9 +11,9 @@
         $i = 0;
         do {
             if ($i % 5 == 0){
-            echo "$i". " es múltiplo de 5 <br>";
+                echo "$i". " es múltiplo de 5 <br>";
             }
-            $i++; // Incrementamos el contador
+            $i++;
         } while ($i <= 100);
     ?>
 </body>
